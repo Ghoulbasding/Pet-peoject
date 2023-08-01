@@ -1,0 +1,100 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #201446;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 50px 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(-21deg, #dd03e4, #5611ec);
+    outline: 10px solid #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    color: transparent;
+    font-size: 100px;
+    transition: opacity .3s, linear-gradient .5s ,color .3s, transform .3s;
+    cursor: pointer;
+}
+
+.card.open {
+    background: linear-gradient(-21deg,#5611ec,#dd03e4);
+    color: #fff;
+    pointer-events: none;
+}
+
+.card.succesed {
+    background: linear-gradient(-21deg,#5611ec,#dd03e4);
+    transform: scale(0.95);
+    opacity: .7;
+    color: #fff;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.btn__restart {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 50px;
+    transition: background-color .2s, color .2s;
+}
+
+.btn__restart:hover {
+    background-color: #fff;
+    color: #201446;
+}
+
+.btn__restart:active {
+    opacity: .8;
+}

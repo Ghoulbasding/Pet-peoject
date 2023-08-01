@@ -1,0 +1,1166 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 824px;
+        padding: 0;
+    }
+
+    .header {
+        padding-top: 0;
+    }
+
+    .header__media {
+        width: 100%;
+        background-color: var(--color-light_color);
+        padding: 20px 0;
+        display: block;
+    }
+
+    .header__top {
+        padding-top: 20px;
+    }
+
+    .header__logo {
+        display: none;
+        width: 116px;
+    }
+
+    .header__logo_media {
+        display: block;
+    }
+
+    .header__nav {
+        margin: 0;
+        margin-right: auto;
+    }
+
+    .header__age {
+        display: none;
+    }
+
+    .header__list {
+        gap: 28px;
+    }
+
+    .header__ether_above {
+        padding-left: 12px;
+        padding-right: 24px;
+    }
+
+    .header__ether_now {
+        padding-left: 12px;
+        padding-right: 24px;
+    }
+
+    .header__bottom {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        gap: 22px;
+    }
+
+    .hero {
+        padding-top: 84px;
+        padding-bottom: 84px;
+    }
+
+    .hero__text {
+        max-width: 539px;
+    }
+
+    .hero__desc {
+        margin-bottom: 18px;
+    }
+
+    .podcasts__colum {
+        max-width: 396px;
+    }
+
+    .transfers {
+        padding-top: 106px;
+        padding-bottom: 92px;
+    }
+
+    .transfers__list {
+        grid-row: 1/ span 3;
+    }
+
+    .transfers__item_text {
+        padding-top: 16px;
+    }
+
+    .transfers__archive_picture {
+        margin-bottom: 15px;
+    }
+
+    .transfers__desc_remark {
+        margin-bottom: 17px;
+    }
+
+    .visitor__item {
+        max-width: 539px;
+    }
+
+    .visitor__link_row {
+        column-count: 3;
+    }
+
+    .visitor__tabs {
+        max-width: 370px;
+    }
+
+    .visitor__tabs_picture {
+        width: 100%;
+    }
+
+    .visitor__desc {
+        max-width: 536px;
+    }
+
+    .playlists__container {
+        flex-direction: column;
+    }
+
+    .playlists__choise {
+        max-width: 100%;
+    }
+
+    .playlists__genre {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        border: none;
+        padding-bottom: 35px;
+    }
+
+    .playlists__genre_label {
+        display: flex;
+        flex-basis: 100%;
+        max-width: 326px;
+    }
+
+    .playlests__album_img {
+        max-width: 122px;
+    }
+
+    .playlests__content {
+        max-width: 100%;
+        gap: 29px;
+        border-bottom: 1px solid var(--color-light_color);
+        padding-bottom: 42px;
+    }
+
+    .playlists__alalbum_col {
+        width: 100%;
+        max-width: 255px;
+    }
+
+    .playlests__album {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .playlests__album_text {
+        width: 100%;
+        padding: 0;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .playlests__album::before {
+        top: 30%;
+        left: 15%;
+    }
+
+    .playlests__album_flag {
+        left: 0;
+    }
+
+    .playlists__text {
+        display: none;
+    }
+
+    .playlists__text_media {
+        display: block;
+    }
+
+    .article__content {
+        align-items: center;
+    }
+
+    .new {
+        max-width: 100px;
+    }
+
+    .article__product {
+        max-width: 397px;
+    }
+
+    .article__line {
+        width: 395px;
+    }
+
+    .article__content_text {
+        max-width: 395px;
+    }
+
+    .about__left_lag {
+        display: none;
+    }
+
+    .about__left_big {
+        display: block;
+    }
+
+    .about__swiper_img {
+        height: 255px;
+        object-fit: cover;
+    }
+
+    .form__text {
+        max-width: 397px;
+    }
+
+    .form__email {
+        max-width: 397px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .container {
+        max-width: 570px;
+    }
+
+    .page.lock {
+        overflow: hidden;
+    }
+
+    .header.open .burger__menu {
+        transform: translateX(100%);
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .modal__box {
+        max-width: 539px;
+    }
+
+    .burger__menu {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background-image: url('../img/bg_burger.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        transition: transform .3s ease-in-out;
+    }
+
+    .burger__menu_inner {
+        display: flex;
+        width: 100%;
+        padding-left: 20%;
+        padding-top: 20%;
+        position: relative;
+    }
+
+    .burger__line_bottom {
+        position: absolute;
+        bottom: 0;
+        right: 25%;
+    }
+
+    .burger__line_top {
+        position: absolute;
+        top: 0;
+        right: 5%;
+    }
+
+    .burger__menu_list {
+        column-count: 2;
+        width: 50%;
+    }
+
+    .burger__menu_item {
+        margin-bottom: 64px;
+    }
+
+    .burger__menu_itme:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    .burger {
+        display: flex;
+        margin-right: auto;
+        position: relative;
+        height: 24px;
+        width: 30px;
+        align-items: center;
+        justify-content: center;
+        z-index: 101;
+    }
+
+    .burger__line {
+        position: absolute;
+        width: 24px;
+        height: 3px;
+        background-color: var(--color-primary);
+        left: 3px;
+        transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+    }
+
+    .burger__line:nth-child(1) {
+        transform: translateY(-10px);
+    }
+
+    .burger__line:nth-child(3) {
+        transform: translateY(10px);
+    }
+
+    .header.open .burger__line:nth-child(1) {
+        transform: translateY(0px) rotate(135deg);
+    }
+
+    .header.open .burger__line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header.open .burger__line:nth-child(3) {
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    .header__ether {
+        display: none;
+    }
+
+    .header__btn_media {
+        display: block;
+    }
+
+    .header__ether_play {
+        margin: 0;
+    }
+
+    .header__btn_play::before {
+        content: none;
+    }
+
+    .header__list {
+        gap: 31px;
+    }
+
+    .btn__search_wrapper {
+        padding-top: 4px;
+    }
+
+    .hero__microphon_picture {
+        display: none;
+    }
+
+    .hero__title {
+        margin-bottom: 14px;
+    }
+
+    .hero__desc {
+        margin-bottom: 20px;
+    }
+
+    .podcasts__colum {
+        max-width: 100%;
+    }
+
+    .transfers__container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .transfers__choise {
+        margin-bottom: 47px;
+    }
+
+    .transfers__list {
+        padding-bottom: 61px;
+    }
+
+    .transfers__archive {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .transfers__desc {
+        max-width: 255px;
+    }
+
+    .visitor__content {
+        flex-direction: column;
+    }
+
+    .visitor__list {
+        margin-bottom: 50px;
+    }
+
+    .visitor__tabs_wrap {
+        max-width: 100%;
+    }
+
+    .visitor__tabs {
+        max-width: 100%;
+    }
+
+    .visitors__tabs_desc {
+        max-width: 398px;
+    }
+
+    .playlists__genre {
+        display: none;
+    }
+
+    .playlists__genre_wrapper {
+        display: flex;
+        gap: 34px;
+    }
+
+    .playlists__genre_media {
+        display: flex;
+    }
+
+    .playlists__genre_left {
+        max-width: 134px;
+    }
+
+    .article {
+        padding-top: 54px;
+    }
+
+    .article__line {
+        width: 100%;
+    }
+
+    .article__product {
+        margin-bottom: 50px;
+    }
+
+    .article__content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .article__content_text {
+        max-width: 100%;
+    }
+
+    .article__product {
+        max-width: 540px;
+    }
+
+    .new {
+        max-width: 160px;
+    }
+
+    .article__title {
+        max-width: 441px;
+    }
+
+    .about {
+        position: relative;
+    }
+
+    .about__left_big {
+        display: none;
+    }
+
+    .about__text {
+        flex-direction: column;
+        margin-bottom: 172px;
+    }
+
+    .about__left_medium {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+
+    .about__right {
+        margin-bottom: 30px;
+    }
+
+    .form__text_bottom {
+        flex-direction: column;
+    }
+
+    .form__item_wrapper {
+        max-width: 100%;
+    }
+
+    .form__text {
+        max-width: 100%;
+    }
+
+    .form__email {
+        max-width: 100%;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .footer__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 0 32px;
+        max-width: 100%;
+    }
+
+    .header__media_conten {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__btn_enter {
+        display: none;
+    }
+
+    .header__media_btn {
+        display: block;
+    }
+
+    .burger__menu {
+        display: none;
+    }
+
+    .burger__menu_small {
+        display: block;
+    }
+
+    .header__list {
+        display: none;
+    }
+
+    .header__btn_media {
+        display: none;
+    }
+
+    .burger__menu_inner {
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 45%;
+    }
+
+    .modal__box {
+        max-width: 256px;
+        padding: 40px 20px;
+    }
+
+    .burger__menu_top {
+        background-color: #D2D5DD;
+    }
+
+    .burger__menu_list {
+        width: 100%;
+        padding-left: 15%;
+    }
+
+    .burger__menu_bottom {
+        display: block;
+        background-color: #fff;
+        padding-top: 50px;
+    }
+
+    .burger__menu_small {
+        background: transparent;
+    }
+
+    .modal__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .modal__desc {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .modeal__link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .modal__form_input {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px 18px;
+    }
+
+    .modal__btn {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 12px 44px;
+        text-align: center;
+    }
+
+    .hero {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        line-height: 100%;
+        margin-bottom: 8px;
+    }
+
+    .hero__desc {
+        font-size: 14px;
+        line-height: 150%;
+        margin-bottom: 20px;
+    }
+
+    .hero__btn {
+        padding: 17px 45px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .podcasts__title {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .podcasts__colum {
+        flex-direction: column;
+    }
+
+    .data {
+        top: 0;
+        bottom: auto;
+    }
+
+    .podcasts__player_btn {
+        max-width: 36px;
+    }
+
+    .podcasts__desc_name {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts__desc_author {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .podcasts__player {
+        padding: 16px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+    }
+
+    .podcasts__player_name {
+        padding-bottom: 16px;
+    }
+
+    .podcasts__amount {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .podcasts__player_time {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 8px;
+    }
+
+    .podcasts__colum:nth-child(-n+12) {
+        display: none;
+    }
+
+    .podcasts__colum.podcasts__colum--visible {
+        display: flex;
+    }
+
+    .podcasts__btn_more {
+        padding: 16px 30px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts__picture_img {
+        width: 100%;
+    }
+
+    .transfers {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .transfers__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .transfers__author {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .transfers__item_text {
+        padding: 10px;
+    }
+
+    .transfers__item_name {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .transfers__desc_remark {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .transfers__link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        background-size: 20px;
+        padding-right: 25px;
+    }
+
+    .select__item {
+        background-color: #fefefe;
+    }
+
+    .transfers__link:focus {
+        background-size: 26px;
+        padding-right: 25px;
+    }
+
+    .transfers__link:hover {
+        background-size: 26px;
+        padding-right: 25px;
+    }
+
+    .transfers__link:active {
+        background-size: 26px;
+        padding-right: 25px;
+    }
+
+    .transfers__text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .transfers__desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        margin-bottom: 7px;
+    }
+
+    .transfers__archive {
+        gap: 13px;
+    }
+
+    .transfers__archive_picture {
+        flex-shrink: 0;
+        flex-grow: 3;
+        max-width: 77px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .transfers__archive_btn {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px 30px;
+        margin-bottom: 0;
+        max-width: 110px;
+    }
+
+    .visitor {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .visitor__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        margin-bottom: 12px;
+    }
+
+    .visitor__desc_bold {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        margin-bottom: 0;
+    }
+
+    .visitor__desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .visitor__item .visitor__item_title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 18px 0;
+    }
+
+    .visitor__ac_icon {
+        max-width: 30px;
+    }
+
+    .visitor__link_row {
+        column-count: 2;
+    }
+
+    .visitor__link .tabs-nav__btn {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 110%;
+    }
+
+    .visitor__list {
+        margin-bottom: 30px;
+    }
+
+    .vivsitors__tabs_item {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .playlists {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .playlists__title {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .playlists__genre_wrapper {
+        display: none;
+    }
+
+    .playlests__album {
+        flex-direction: column;
+        max-width: 113px;
+    }
+
+    .playlests__album_text {
+        padding: 10px;
+    }
+
+    .playlests__album::before {
+        top: 20%;
+        left: 28%;
+    }
+
+    .playlests__album_flag {
+        left: auto;
+    }
+
+    .playlests__album_name {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .playlests__album_amount {
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .playlests__content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 32px;
+    }
+
+    .playlists__alalbum_col {
+        max-width: 113px;
+    }
+
+    .playlists__desc {
+        margin-top: 28px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .playlists__year {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .article {
+        padding-bottom: 54px;
+    }
+
+    .article__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .article__desc {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .article__price {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .article__link_buy {
+        font-size: 16px;
+        line-height: 100%;
+        padding: 15px 16px;
+        gap: 5px;
+    }
+
+    .new {
+        max-width: 62px;
+    }
+
+    .about {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .about__title {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .about__desc_bold {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .about__desc {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .about__text {
+        margin-bottom: 30px;
+    }
+
+    .about__swiper_img {
+        height: auto;
+    }
+
+    .about__left {
+        display: none;
+    }
+
+    .about__swiper_name {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about__swiper_desc {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .btn__swiper_navigation {
+        display: none;
+    }
+
+    .form__input {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 17px 24px;
+    }
+
+    .form__btn {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 17px 44px;
+    }
+
+    .form__agreement {
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .footer__container {
+        display: none;
+    }
+
+    .footer__content {
+        gap: 0;
+        margin: 0;
+        padding-bottom: 57px;
+    }
+
+    .footer__nav {
+        gap: 86px;
+    }
+
+    .container__media_top {
+        display: block;
+    }
+
+    .container__media_center {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: var(--color-black);
+    }
+
+    .container__media_bottom {
+        display: block;
+        padding-top: 30px;
+        background-color: var(--color-light_black);
+        position: relative;
+    }
+
+    .container__media_bottom svg {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 100%;
+    }
+
+    .accordion_ether {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .accordion_ether_coontent {
+        display: block;
+    }
+
+    .header__ether_ac {
+        display: flex;
+        border: none;
+        padding-top: 10px;
+    }
+
+    .accordion_ether_title .accordion_ether_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 5px;
+        font-size: 16px;
+        line-height: 16px;
+        color: var(--color-primary);
+    }
+
+    .accordion_ether_title .accordion_ether_btn:focus {
+        color: var(--color-primary);
+    }
+
+    .header__ether_above {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__ether_now {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__ether_span {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .header__ether_desc {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .accordion_ether_btn svg {
+        transition: transform .3s ease-in-out;
+    }
+
+    .ac.is-active .accordion_ether_btn svg {
+        transform: rotate(45deg);
+    }
+
+    .swiper_btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn__genre {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: var(--color-primary);
+        border: 1px solid var(--color-primary);
+        border-radius: 77px;
+        background-color: transparent;
+        padding: 9px 22px;   
+        transition: background-color .3s ease-in-out, color .2s ease-in-out;
+    }
+
+    .btn__genre:focus {
+        background-color: var(--color-primary_light);
+        color: #fff;
+    }
+
+    .btn__genre:hover {
+        background-color: var(--color-primary);
+        color: #fff;
+    }
+
+    .swiper-slide {
+        width: 150px !important;
+    }
+
+    .btn__genre_active {
+        color: #fff;
+        background-color: var(--color-primary);
+    }
+}
